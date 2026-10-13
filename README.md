@@ -1,6 +1,6 @@
-# BMIF201: inference from genetic variation
+# BMIF201 2026 activity
 
-Use Python 3.10 or newer and Git. Clone this repository, install the packages, and open the activity in Jupyter:
+Clone this repository, install the packages, and open the activity in Jupyter:
 
 ```sh
 git clone https://github.com/oclb/BMIF201_problems.git
