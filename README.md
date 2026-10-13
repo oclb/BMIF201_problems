@@ -1,20 +1,16 @@
-# BMIF201_problems
+# BMIF201: inference from genetic variation
 
-This repository contains in-class problem sets for the population genetics unit of BMIF201. Before each class, 
-a Jupyter notebook will be added containing problems to be completed during the second half of class. 
-There is also a partial implementation of the Wright-Fisher model, 
-which you will complete as part of your first problem set.
+Use Python 3.10 or newer and Git. Clone this repository, install the packages, and open the activity in Jupyter:
 
-# Installation
-You will need to have `Python` installed on your machine.  
+```sh
+git clone https://github.com/oclb/BMIF201_problems.git
+cd BMIF201_problems
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python -m notebook BMIF201_Inference_Activity_2026.ipynb
+```
 
-In a shell terminal, clone the repository using `git clone https://github.com/oclb/BMIF201_problems`, 
-and open the repo directory. 
-Create a virtual environment using `python -m venv bmif201`, 
-and activate it using, e.g., `source bmif201/bin/activate`. 
-(This command is platform specific: see https://docs.python.org/3/library/venv.html#how-venvs-work).
-Install required packages using `pip install -r requirements.txt`. Then,
-launch today's problem set as a  Jupyter Notebook using e.g., `jupyter notebook 01_mutation_and_drift.ipynb`.
+On Windows, use `py` instead of `python3` to create the environment, and `.venv\Scripts\activate` in Command Prompt instead of the `source` command.
 
-After lecture 1, you'll be able to download the problem set for each lecture by navigating to the repo directory
-and running `git pull`.
+Work through the notebook from top to bottom. Replace `...` on the lines marked `# TODO` with your code, and press **Shift+Enter** to run each cell. The simulation and plotting code is supplied. Save your work in the notebook.
